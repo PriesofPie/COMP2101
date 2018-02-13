@@ -1,0 +1,21 @@
+#!bin/bash
+
+#this scrit produceds the dynamic output from the slide
+#it should look like
+# Welcome to planet hostname, title name!
+# Today is Weekday
+
+hostname=$(hostname)
+title="Genius
+export MYNAME="Matt"
+today=$(date +%A)
+
+echo "welcome to planet $hostname, #title $MYNAME!"
+
+
+
+
+
+
+
+cat <<EOF
